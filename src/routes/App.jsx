@@ -22,7 +22,7 @@ const App = () => {
 			<BrowserRouter>
 				<Layout>
 					<Routes>
-						<Route exact path="/" element={<Home/>} />
+						<Route exact path="eShop-React/" element={<Home/>} />
 						<Route exact path="/login" element={<Login/>} />
 						<Route exact path="/password-recovery" element={<RecoveryPassword/>} />
 						<Route exact path="/send-email" element={<SendEmail/>} />
